@@ -6,17 +6,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ["system-ui", "ui-sans-serif", "sans-serif"],
-      },
-      colors: {
-        background: "#0b0b10",
-        surface: "#111119",
-        accent: "#f5b3d1",
-        muted: "#a0a0b8",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
